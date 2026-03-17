@@ -56,16 +56,22 @@ Compartilhado -> Controle total
 
 Restrito -> Controle total
 
+
 Usuário funcionario1
 
 Empresa -> Ler, listar conteúdo e gravar
+
 Compartilhado -> Herdou as permissões da pasta Empresa
+
 Restrito -> Acesso negado
+
 
 Usuário estag
 
 Empresa -> Leitura e listagem de conteúdo
+
 Compartilhado -> Leitura e listagem de conteúdo
+
 Restrito -> Acesso negado
 
 ## Controle de acesso
