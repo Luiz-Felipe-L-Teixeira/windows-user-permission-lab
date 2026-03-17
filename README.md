@@ -19,8 +19,11 @@ Foi Criado um ambiente fictício representando uma pequena empresa, com diferent
 # Usuários Criados:
 
 Usuário
+
 TI_admin
+
 funcionario1
+
 estag
 
 # Estrutura de diretórios
@@ -28,13 +31,17 @@ estag
 Foi criada uma pasta principal no disco local simulando um servidor de arquivos.
 
 C: Empresa
+
   -- Compartilhado
+  
   -- Restrito
 
 # Descrição das Pastas
 
 Empresa -> Diretório raiz
+
 Compartilhado -> Arquivos acessíveis aos funcionários
+
 Restrito -> Diretório com acesso exclusivo da TI
 
 # Configuração de Permissões
