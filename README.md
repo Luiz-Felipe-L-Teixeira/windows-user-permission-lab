@@ -46,33 +46,31 @@ Restrito -> Diretório com acesso exclusivo da TI
 
 ## Configuração de Permissões
 
-Usuário TI_admin
+# Usuário TI_admin
 
-Possui controle total sobre todas as pastas.
+- Possui controle total sobre todas as pastas.
 
-Empresa -> Controle total
+- Empresa -> Controle total
 
-Compartilhado -> Controle total
+- Compartilhado -> Controle total
 
-Restrito -> Controle total
+- Restrito -> Controle total
 
+# Usuário funcionario1
 
-Usuário funcionario1
+- Empresa -> Ler, listar conteúdo e gravar
 
-Empresa -> Ler, listar conteúdo e gravar
+- Compartilhado -> Herdou as permissões da pasta Empresa
 
-Compartilhado -> Herdou as permissões da pasta Empresa
+- Restrito -> Acesso negado
 
-Restrito -> Acesso negado
+# Usuário estag
 
+- Empresa -> Leitura e listagem de conteúdo
 
-Usuário estag
+- Compartilhado -> Leitura e listagem de conteúdo
 
-Empresa -> Leitura e listagem de conteúdo
-
-Compartilhado -> Leitura e listagem de conteúdo
-
-Restrito -> Acesso negado
+- Restrito -> Acesso negado
 
 ## Controle de acesso
 
